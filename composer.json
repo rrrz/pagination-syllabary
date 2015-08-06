@@ -1,0 +1,15 @@
+{
+	"name": "rrrz/pagination-syllabary",
+	"description" : "FuelPHP index tab plugin - categorized by syllabary, arphabet, arabic number and others."
+	"type": "fuel-package",
+	"homepage": "https://github.com/rrrz/pagination-syllabary",
+	"authors": [
+		{
+			"name": "Takeshige Nii",
+			"email": "rznii@rrr-z.co.jp"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
