@@ -126,10 +126,12 @@ composer.jsonに以下を追記
 		$options['rows_limit']  = $pagination->per_page;
 		$options['rows_offset'] = $pagination->offset;
 		
+		$item = Model_Expample::find('all', $options);
 		
 		// (3)見出しとページネーションのインスタンスをviewに渡して生成します
 		
 		$data = array(
+			'item'       => $item,
 			'pagination' => $pagination,
 			'syllabary'  => $syllabary,
 			'url_base'   =>static::$url_base
