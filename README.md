@@ -9,6 +9,8 @@
 
 ## Description
 
+![tab_capture](https://cloud.githubusercontent.com/assets/13582533/9127194/0c5fbf8c-3cf2-11e5-9cc7-cd8f0ac9cd90.jpg)
+
 レコードの一覧表示画面などに五十音の見出し付きタブを表示し、レコードを絞り込みます。
 
 本パッケージではFuelPHPのCore/Paginationクラスを拡張し、見出しの実装に必要な以下の機能を提供します。
